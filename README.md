@@ -14,13 +14,12 @@ Variables removed: EIN and NAME
 ### Compiling, Training, and Evaluating the Model
 
 Once having the inputs that are going to determine the number of neurons and layers, the binary classification model is going to be compiled, trained and evaluated in order to calculate the model's loss and accuracy.
+
 There have been selected 80 and 30 neurons for the first and second hidden layer, respectively. Also, for speeding up the training process and getting the best performance
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 The model accuracy got 72.69%, which is not properly for satisfying the target model performance required
 Were you able to achieve the target model performance?
 
-What steps did you take to try and increase model performance?
 There were some steps done for increasing model performance, which were:
 1. Increased Training duration from 100 to 200. 
 2. Changing activation function of hidden layer from relu to tanh.
